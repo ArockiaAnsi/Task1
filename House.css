@@ -1,0 +1,137 @@
+*{
+	margin: 0px auto;
+ }
+	.container
+	{		
+		position: absolute;
+		width: 700px;
+		height: 500px;
+		top:50%;
+		left: 50%;
+		margin-left: -350px;  
+		margin-top: -250px;
+		border:1px solid black;
+	}
+		.fireplace1 
+		{
+			width: 0;
+			height: 0;
+			border-top: 52px solid black;
+			border-left: 52px solid transparent;
+		    position: absolute;
+		    top: 142px;
+		    left: 438px;
+		}
+		.fireplace2 
+		{
+			width: 52px;
+		    height: 65px;
+			background-color: black;
+			position: absolute;
+		    top: 100px;
+		    left: 438px;
+		}
+		.fireplace3
+		{
+			width: 65px;
+		    height: 18px;
+			background-color: black;
+			position: absolute;
+			border-radius: 30px;
+		    top: 80px;
+		    left: 430px;
+		}
+		.roof
+		{
+			width: 20px;
+			height: 270px;
+			background-color: black;
+			position: absolute;
+		}
+		.roof1 
+		{
+			transform: rotate(52deg);
+			top: 33px;
+			left: 245px;
+		}
+		.roof2 
+		{
+			transform: rotate(-52deg);
+			top: 33px;
+			left: 445px;
+		}
+		#box1
+		{
+			position:absolute;
+			top:107px;
+			left:175px;
+			width: 0;
+			height: 0;
+			border-left: 180px solid transparent;
+			border-right: 180px solid transparent;
+			border-bottom: 140px solid black;
+
+		}
+			.square
+			{
+				width: 30px;
+				height: 30px;
+				background: white;
+				border:0px solid black;
+				display: inline-block;
+			}
+			#topwnd
+			{
+				width:65px;
+				height:65px;
+				margin-top:70px;
+				margin-right: 50px;
+				margin-left: -30px;
+			}
+		#box2
+		{
+			position: absolute;
+			width: 220px;
+			height: 100px;
+			background: black;
+			bottom:3%;
+			left:25%;
+			padding:69px;
+		}
+			#leftwnd
+			{
+				width:65px;
+				height: 65px;
+				float: left;
+				margin-left:-10px;
+			}
+			#rightwnd
+			{
+				width:65px;
+				height: 65px;
+				float: right;
+				margin-right: -10px;
+			}
+			#door
+			{
+				position: relative;
+				top:32%;
+				left:0;
+				width: 70px;
+				height: 100px;
+				background: black;
+				border: 5px solid white;
+				padding-bottom: 30px;
+			}
+			#handle
+			{
+				width: 20px;
+				height: 20px;
+				background: white;
+				border-radius: 50px;
+				position: relative;
+				top: 60%;
+				left:-28%;
+			}
+		
+			
